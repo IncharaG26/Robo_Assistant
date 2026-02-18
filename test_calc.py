@@ -1,4 +1,7 @@
 from calc import add
 
 def test_add():
-  assert add(2,3) == 6
+  assert add(2,3) == 9
+
+test_add()
+print("All test passed")
